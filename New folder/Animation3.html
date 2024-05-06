@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes Example1 {
+            from{
+                background-color: aquamarine;
+            }
+            to{
+                background-color: blueviolet;
+            }
+            
+        }
+        .my-element {
+             display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+        #div1{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+
+        }
+        #div2{
+
+        }
+        #div3{
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="animate__animated animate__bounce">An animated element</h1>
+    <div id="div1">Hello World</div>
+    <div id="div2">Hello World</div>
+    <div id="div3">Hello World</div>
+    <div id="div4">Hello World</div>
+    <div id="div5">Hello World</div>
+    
+</body>
+</html>
